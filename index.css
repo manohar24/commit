@@ -1,0 +1,162 @@
+#nav{
+    margin: 0 auto;
+    width: 1000px;
+}
+a.nav-link :hover{
+    color : white;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1000px;
+    color: black;
+}
+
+.carousel{
+    width: 100%;
+}
+
+@media screen and (min-width:1400px){
+    .carousel .carousel-item {
+        height: 650px;
+      }
+      
+      .carousel-item img {
+          position: absolute;
+          object-fit:cover;
+          top: 0;
+          left: 0;
+          min-height: 500px;
+      }
+      
+}
+/*about us*/
+#aboutus{
+    font-family: Multi Display Medium;
+    padding-top: 3%;
+}
+#aboutus h2{
+    margin-bottom: 25px;
+    
+}
+.img-wrap{
+    width:100%;
+}
+.img-wrap img{
+    width : 100%;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #999999;
+}
+/* Mobile iphone6/7/8 */ 
+@media screen and (max-width: 440px) {
+
+    .navbar {
+        width: auto;
+    }
+    .navbar-brand{
+        float: center;
+    }
+    
+  }
+  /* ipad and ipad pro */ 
+  @media screen and (max-width: 1024px) and (min-width : 441px) {
+   
+    .navbar {
+        width: 100%;
+       
+    }
+    .nav-link{
+        text-align: center;
+    }   
+    
+    .img-wrap{
+        padding-top: 20%;
+    }
+  }
+  .card-body > i{
+    font-size:50px;
+    margin: 8px;
+}
+.card-body{
+    text-align: center;
+}
+
+
+.card-body > p{
+    font-weight: 500;
+
+}
+
+  .sss{
+      padding-top: 2%;
+     
+  }
+
+
+  .heading{
+	padding: 2%;
+    text-align:center;
+    font-family: open sans,Arial,sans-serif;
+    font-weight: 500;
+ /*	font-family: 'Oswald', sans-serif  ;*/
+}
+
+.heading::after{
+  content: " ";
+  width: 30%;
+  height: .5rem;
+  background-color: #45e19f;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  border-radius: 2rem;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.para{
+   font-weight: x-large;
+   font-family: 'Oswald', sans-serif ;
+}
